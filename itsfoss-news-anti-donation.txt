@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: 🛠️ It's FOSS News Anti-Donation List
-! Description: Hide annoyances for donating It's FOSS news Website (Please don't sue)
+! Description: Hide annoyances for donating It's FOSS News Website (Please don't sue)
 ! Homepage: https://github.com/Parsa307/filterlists
 ! Version: 6 May 2025
 ! Syntax: AdBlock
