@@ -5,5 +5,5 @@
 ! Version: 6 May 2025
 ! Syntax: AdBlock
 
-news.itsfoss.com##.kg-callout-card-purple
 news.itsfoss.com##p:has-text(Suggested Read)
+news.itsfoss.com##.kg-callout-card-purple
