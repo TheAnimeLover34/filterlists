@@ -1,0 +1,28 @@
+[Adblock Plus 2.0]
+! Title: 🚫 Parsa307 Blocker
+! Description: Block ADS & Annoyances. That most filters miss!
+! Homepage: https://github.com/Parsa307/filterlists
+! Version: 25 Jun 2025
+! Syntax: AdBlock
+
+! Hide ADS for Soft98
+soft98.ir,~forum.soft98.ir###abddh, #sbds
+soft98.ir,~forum.soft98.ir##.abddl
+soft98.ir,~forum.soft98.ir##a[data-href="https://soft98.ir/adv.html"]:upward(div)
+! Prevents Anti-AdBlock from destroying the Content of the Page.
+soft98.ir,~forum.soft98.ir##+js(aost, NodeList.prototype.forEach, /\bRi[@\s][^\t]+\/application\.min\.packed\.js/, log, 1)
+! Annoyances for Soft98
+soft98.ir##.abdd_ibd
+! Downloadha Blocking
+www.downloadha.com##div.col-xs-12.col-sm-5.no-space-xs > p:has-text(تماس با ما)
+www.downloadha.com##li.col-xs-12.col-sm-6 > a:has-text(تبلیغات)
+www.downloadha.com##li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-180646 > a:has-text(تبلیغات)
+! Shad ADS Blocking
+shad.ir##.bannerWrapImg
+my.shad.ir##rb-chat-ads-container
+! Hide Membership AD for karzer
+www.karzar.net##.col-md-12
+! Unsafe Software Provider from Iran. Avoid it at any costs! (According to a Subreddit)
+||yasdl.com^
+! Block Adverstive on Reddit
+www.reddit.com##advertise-button
