@@ -19,7 +19,7 @@ www.downloadha.com##li.col-xs-12.col-sm-6 > a:has-text(تبلیغات)
 www.downloadha.com##li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-180646 > a:has-text(تبلیغات)
 ! Shad ADS Blocking
 shad.ir##.bannerWrapImg
-my.shad.ir###rb-chat-ads-container
+my.shad.ir##rb-chat-ads-container
 ! Hide Membership AD for karzer
 www.karzar.net##.col-md-12
 ! Unsafe Software Provider from Iran. Avoid it at any costs! (According to a Subreddit)
