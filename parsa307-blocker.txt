@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: 🚫 Parsa307 Blocker
+! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
 ! Version: 25 Jun 2025
@@ -22,7 +22,7 @@ shad.ir##.bannerWrapImg
 my.shad.ir##rb-chat-ads-container
 ! Hide Membership AD for karzer
 www.karzar.net##.col-md-12
-! Unsafe Software Provider from Iran. Avoid it at any costs! (According to a Subreddit)
-||yasdl.com^
 ! Block Adverstive on Reddit
 www.reddit.com###advertise-button
+! Unsafe Software Provider from Iran. Avoid it at any costs! (According to a Subreddit)
+||yasdl.com^
