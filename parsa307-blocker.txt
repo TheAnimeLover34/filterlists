@@ -2,7 +2,7 @@
 ! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 25 Jun 2025
+! Version: 20 Jul 2025
 ! Syntax: AdBlock
 
 ! Hide ADS for Soft98
