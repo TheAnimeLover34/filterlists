@@ -15,8 +15,8 @@ soft98.ir,~forum.soft98.ir##+js(aost, NodeList.prototype.forEach, /\bRi[@\s][^\t
 soft98.ir##.abdd_ibd
 ! Downloadha Blocking
 www.downloadha.com##div.col-xs-12.col-sm-5.no-space-xs > p:has-text(تماس با ما)
-www.downloadha.com##li.col-xs-12.col-sm-6 > a:has-text(تبلیغات)
-www.downloadha.com##li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-180646 > a:has-text(تبلیغات)
+www.downloadha.com##li.col-sm-6.col-xs-12 > [href="https://www.downloadha.com/ads/"]
+www.downloadha.com###menu-item-180646 > [href="https://www.downloadha.com/ads/"]
 ! Shad ADS Blocking
 shad.ir##.bannerWrapImg
 my.shad.ir##rb-chat-ads-container
