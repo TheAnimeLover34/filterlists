@@ -2,10 +2,9 @@
 ! Title: 🛠️ It's FOSS News Annoyances List
 ! Description: Hide annoyances for It's FOSS News Website (Please don't sue)
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 13 Jun 2025
+! Version: 20 Jul 2025
 ! Syntax: AdBlock
 
 news.itsfoss.com###pmLink
 news.itsfoss.com##p:has-text(Suggested Read)
-news.itsfoss.com##.kg-callout-card-purple
-news.itsfoss.com##.nav-donate
+news.itsfoss.com##.kg-callout-card-purple.kg-callout-card.kg-card
