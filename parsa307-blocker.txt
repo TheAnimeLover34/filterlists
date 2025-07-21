@@ -24,7 +24,5 @@ my.shad.ir##rb-chat-ads-container
 www.karzar.net##.col-md-12
 ! Block Adverstive on Reddit
 www.reddit.com###advertise-button
-! Annoyances for ThunderBird
-www.thunderbird.net###donation-blocked-notice
 ! Unsafe Software Provider from Iran. Avoid it at any costs! (According to a Subreddit)
 ||yasdl.com^
