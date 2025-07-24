@@ -15,8 +15,7 @@ soft98.ir,~forum.soft98.ir##+js(aost, NodeList.prototype.forEach, /\bRi[@\s][^\t
 soft98.ir##.abdd_ibd
 ! Downloadha Blocking
 www.downloadha.com##div.no-space-xs.col-sm-5.col-xs-12 > p:has-text(تماس با ما)
-www.downloadha.com##li.col-sm-6.col-xs-12 > [href="https://www.downloadha.com/ads/"]
-www.downloadha.com###menu-item-180646 > [href="https://www.downloadha.com/ads/"]
+www.downloadha.com##[href="https://www.downloadha.com/ads/"]
 ! Shad ADS Blocking
 shad.ir##.bannerWrapImg
 my.shad.ir##rb-chat-ads-container
