@@ -2,17 +2,9 @@
 ! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 25 Jul 2025
+! Version: 1 Aug 2025
 ! Syntax: AdBlock
 
-! Hide ADS for Soft98
-soft98.ir,~forum.soft98.ir###abddh, #sbds
-soft98.ir,~forum.soft98.ir##.abddl
-soft98.ir,~forum.soft98.ir##a[data-href="https://soft98.ir/adv.html"]:upward(div)
-! Prevents Anti-AdBlock from destroying the Content of the Page.
-soft98.ir,~forum.soft98.ir##+js(aost, NodeList.prototype.forEach, /\bRi[@\s][^\t]+\/application\.min\.packed\.js/, log, 1)
-! Annoyances for Soft98
-soft98.ir##.abdd_ibd
 ! Downloadha Blocking
 www.downloadha.com##div.no-space-xs.col-sm-5.col-xs-12 > p:has-text(تماس با ما)
 www.downloadha.com##[href="https://www.downloadha.com/ads/"]
