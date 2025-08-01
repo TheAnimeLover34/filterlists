@@ -1,0 +1,11 @@
+[Adblock Plus 2.0]
+! Title: 🚫 1337x Anti-NSFW
+! Description: Block NSFW for 1337x.
+! Homepage: https://github.com/Parsa307/filterlists
+! Version: 1 Aug 2025
+! Syntax: AdBlock
+
+! Anti-NSFW for 1337x.to
+1337x.to##[href="/popular-xxx"]
+1337x.to##[href="/cat/XXX/1/"]
+1337x.to##[href="https://theporndude.com/"]
