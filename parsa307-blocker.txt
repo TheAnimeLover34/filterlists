@@ -15,9 +15,6 @@ soft98.ir,~forum.soft98.ir##a[data-href="https://soft98.ir/adv.html"]:upward(div
 ! Soft98 Annoyance Blocking (Use the UserScripts too)
 soft98.ir##.abdd_ibd
 soft98.ir##.tbdt-inner
-! Shad ADS Blocking
-shad.ir##.bannerWrapImg
-my.shad.ir##rb-chat-ads-container
 ! Hide Membership AD for karzer
 www.karzar.net##.col-md-12
 ! Block Adverstive on Reddit
