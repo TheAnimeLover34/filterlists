@@ -4,7 +4,7 @@
 // @match        *://*.soft98.ir/*
 // @grant        none
 // @version      1.0
-// @description  Use event delegation to intercept clicks on Soft98 download link and redirect, bypassing adblock/VPN warnings without breaking page or leaks.
+// @description  Use event delegation to intercept clicks on Soft98 download link and redirect, bypassing adblock/VPN warnings.
 // @author       Parsa307
 // ==/UserScript==
 
