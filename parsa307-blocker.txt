@@ -13,7 +13,7 @@ soft98.ir,~forum.soft98.ir###abddh, #sbds
 soft98.ir,~forum.soft98.ir##.abddl
 soft98.ir,~forum.soft98.ir##a[data-href="https://soft98.ir/adv.html"]:upward(div)
 ! My Shad Hiding
-web.shad.ir##rb-chat-ads-container
+my.shad.ir##rb-chat-ads-container
 ! Soft98 Annoyance Blocking (Use the UserScripts too)
 soft98.ir##.abdd_ibd
 soft98.ir##.tbdt-inner
