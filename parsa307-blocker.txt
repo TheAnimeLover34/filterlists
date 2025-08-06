@@ -2,12 +2,14 @@
 ! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 01 Aug 2025
+! Version: 06 Aug 2025
 ! Syntax: AdBlock
 
 ! Downloadha Blocking
 www.downloadha.com##div.no-space-xs.col-sm-5.col-xs-12 > p:has-text(تماس با ما)
 www.downloadha.com##[href="https://www.downloadha.com/ads/"]
+! Soft98 Annoyance Blocking (Use the userscript too)
+soft98.ir##.tbdt-inner
 ! Shad ADS Blocking
 shad.ir##.bannerWrapImg
 my.shad.ir##rb-chat-ads-container
