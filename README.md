@@ -14,4 +14,5 @@
 
 ## 📰 **Site-Specific Annoyance Filters & UserScripts**
 1. 🌟 **🛠️ It's FOSS News Annoyances List** (Not covered currently by most of the filters) [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Parsa307/filterlists/main/itsfoss-news-annoyances.txt&title=It%27s%20FOSS%20News%20Annoyances%20List)
-2. 🌟 **Soft98 Click Redirect with Delegation** (UserScript) (It also requires AdGuard Extra! Use them both at the same time!) (It's a simple fix. Might break at any time.) [Install](https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Click_Redirect_with_Delegation.user.js) [Install AdGuard Extra](https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js)
+2. 🌟 **AdGuard Extra** (UserScript) [Install](https://userscripts.adtidy.org/release/adguard-extra/1.0/adguard-extra.user.js)
+3. 🌟 **Soft98 Click Redirect with Delegation** (UserScript) (It also requires AdGuard Extra! Use them both at the same time!) (It's a simple fix. Might break at any time.) [Install](https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Click_Redirect_with_Delegation.user.js)
