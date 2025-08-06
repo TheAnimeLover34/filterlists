@@ -14,4 +14,4 @@
 
 ## 📰 **Site-Specific Annoyance Filters & UserScripts**
 1. 🌟 **🛠️ It's FOSS News Annoyances List** (Not covered currently by most of the filters) [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Parsa307/filterlists/main/itsfoss-news-annoyances.txt&title=It%27s%20FOSS%20News%20Annoyances%20List)
-2. 🌟 **Soft98 Click Redirect with Delegation** (UserScript) [Install](https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Click_Redirect_with_Delegation.js)
+2. 🌟 **Soft98 Click Redirect with Delegation** (UserScript) (Check how to install a UserScript in your own UserScript Manager.) URL: https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Click_Redirect_with_Delegation.js
