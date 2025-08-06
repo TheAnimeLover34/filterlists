@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name Soft98 Click Redirect with Delegation
 // @namespace    Violentmonkey Scripts
-// @version      1.0
-// @match        *://*.soft98.ir/*
+// @version      1.1
+// @match        https://soft98.ir/*
 // @grant        none
 // @description Use event delegation to intercept clicks on Soft98 download link and redirect, bypassing adblock/VPN warnings.
 // @downloadURL  https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Click_Redirect_with_Delegation.user.js
