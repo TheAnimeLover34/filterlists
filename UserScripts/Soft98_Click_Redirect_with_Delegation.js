@@ -6,6 +6,8 @@
 // @version      1.0
 // @description  Use event delegation to intercept clicks on Soft98 download link and redirect, bypassing adblock/VPN warnings.
 // @author       Parsa307
+// @downloadURL https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Click_Redirect_with_Delegation.js
+// @updateURL https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Click_Redirect_with_Delegation.js
 // ==/UserScript==
 
 (function () {
