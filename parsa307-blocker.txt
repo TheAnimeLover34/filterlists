@@ -11,6 +11,7 @@ www.downloadha.com##[href="https://www.downloadha.com/ads/"]
 ! Soft98 Hide Ads
 soft98.ir,~forum.soft98.ir###abddh, #sbds
 soft98.ir,~forum.soft98.ir##.abddl
+soft98.ir,~forum.soft98.ir##a[data-href="https://soft98.ir/adv.html"]:upward(div)
 ! Soft98 Annoyance Blocking (Use the userscript too)
 soft98.ir##.abdd_ibd
 soft98.ir##.tbdt-inner
