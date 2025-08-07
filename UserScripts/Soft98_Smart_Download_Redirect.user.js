@@ -30,7 +30,7 @@
                         // Replace the host with the Official CDN link
                         url.hostname = "edge08.82.ir.cdn.ir";
                         // Redirect to the Official CDN link
-                        window.location.href = el.href;
+                        window.location.href = url.href;
                         break;
                     }
                 } catch (e) {
