@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Soft98 Click Redirect with Delegation
 // @namespace    Violentmonkey Scripts
-// @version      1.1
+// @version      1.2
 // @match        https://soft98.ir/*
 // @grant        none
 // @description Use event delegation to intercept clicks on Soft98 download link and redirect, bypassing adblock/VPN warnings.
@@ -22,6 +22,7 @@
             if (el.classList && el.classList.contains('dbdlll')) {
                 if (el.href) {  // Check if href exists
                     window.location.href = el.href; // Redirect to real download
+                    event.preventDefault(); // Prevent default behavior
                 }
                 break;
             }
