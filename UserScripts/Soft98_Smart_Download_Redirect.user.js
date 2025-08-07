@@ -24,7 +24,7 @@
                 try {
                     const url = new URL(el.href);
                     // Only redirect if hostname starts with "dl" and is under soft98.ir
-                    if (/^dl\d*\.soft98\.ir$/.test(url.hostname)) {
+                    if (url.hostname.startsWith("dl") && url.hostname.endsWith(".soft98.ir")) {
                         // Replace the host with the Official CDN link
                         url.hostname = "edge08.82.ir.cdn.ir";
                         // Prevent default behavior
