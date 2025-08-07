@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Soft98 Smart Download Redirect
 // @namespace    Violentmonkey Scripts
-// @version      1.4
+// @version      1.5
 // @match        https://soft98.ir/*
 // @grant        none
 // @description  Redirect to download link if it points to dl*.soft98.ir, bypassing AdBlock/VPN warning.
@@ -28,7 +28,7 @@
                         // Replace the host with the Official CDN link
                         url.hostname = "edge08.82.ir.cdn.ir";
                         // Update the actual <a href>
-                        el.href = url.href
+                        el.setAttribute('href', url.href);
                         // Prevent default behavior
                         event.preventDefault();
                         // Redirect to the Official CDN link
