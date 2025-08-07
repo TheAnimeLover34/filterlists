@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Soft98 Smart Download Redirect
 // @namespace    Violentmonkey Scripts
-// @version      1.0
+// @version      1.1
 // @match        https://soft98.ir/*
 // @grant        none
 // @description  Redirect to download link if it points to dl*.soft98.ir, bypassing AdBlock/VPN warning.
@@ -26,6 +26,8 @@
                     // Only redirect if hostname starts with "dl" and is under soft98.ir
                     if (/^dl\d*\.soft98\.ir$/.test(url.hostname)) {
                         window.location.href = el.href;
+                        // Prevent default behavior
+                        event.preventDefault();
                         break;
                     }
                 } catch (e) {
