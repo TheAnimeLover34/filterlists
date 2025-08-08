@@ -2,7 +2,8 @@
 ! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 07 Aug 2025
+! Version: 08 Aug 2025
+! Expires: 5 days
 ! Syntax: AdBlock
 
 ! Downloadha Blocking
@@ -23,5 +24,3 @@ soft98.ir##.tbdt-inner
 www.karzar.net##.col-md-12
 ! Block Adverstive on Reddit
 www.reddit.com###advertise-button
-! Unsafe Software Provider from Iran. Avoid it at any costs! (According to a Subreddit)
-||yasdl.com^
