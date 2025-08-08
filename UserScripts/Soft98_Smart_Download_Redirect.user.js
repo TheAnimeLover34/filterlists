@@ -44,7 +44,7 @@
             if (el.tagName === 'A' && el.href) {
                 try {
                     const url = new URL(el.href);
-                    // Only redirect if hostname matches edge08.82.ir.cdn.ir
+                    // Only redirect if hostname matches mirrorHost
                     if (url.hostname === mirrorHost) {
                         event.preventDefault();
                         window.location.href = url.href;
