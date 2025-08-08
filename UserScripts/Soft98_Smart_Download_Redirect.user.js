@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Soft98 Smart Download Redirect
 // @namespace    Violentmonkey Scripts
-// @version      1.4
+// @version      1.5
 // @match        https://soft98.ir/*
 // @grant        none
 // @description  Redirect to download link if it points to dl*.soft98.ir, bypassing AdBlock/VPN warning.
@@ -15,6 +15,25 @@
 (function () {
     'use strict';
 
+    function changeDownloadLinks() {
+        const links = document.querySelectorAll('a[href]');
+        for (const link of links) {
+            try {
+                const url = new URL(link.href);
+                if (url.hostname.startsWith("dl") && url.hostname.endsWith(".soft98.ir")) {
+                    url.hostname = "edge08.82.ir.cdn.ir";
+                    if (link.href !== url.href) {
+                        link.href = url.href;
+                    }
+                }
+            } catch (e) {
+                // not a valid URL, ignore
+            }
+        }
+    }
+
+    setInterval(changeDownloadLinks, 500);
+
     document.body.addEventListener('click', function(event) {
         let el = event.target;
 
@@ -23,13 +42,9 @@
             if (el.tagName === 'A' && el.href) {
                 try {
                     const url = new URL(el.href);
-                    // Only redirect if hostname starts with "dl" and is under soft98.ir
-                    if (url.hostname.startsWith("dl") && url.hostname.endsWith(".soft98.ir")) {
-                        // Replace the host with the Official CDN link
-                        url.hostname = "edge08.82.ir.cdn.ir";
-                        // Prevent default behavior
+                    // Only redirect if hostname matches edge08.82.ir.cdn.ir
+                    if (url.hostname === "edge08.82.ir.cdn.ir") {
                         event.preventDefault();
-                        // Redirect to the Official CDN link
                         window.location.href = url.href;
                         break;
                     }
