@@ -6,4 +6,5 @@
 ! Syntax: AdBlock
 
 ! Anti-Fap for nyaa.si
+nyaa.si##tr:has(a:has-text("[Hentai]"))
 nyaa.si##[href="//sukebei.nyaa.si"]
