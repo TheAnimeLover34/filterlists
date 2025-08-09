@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Soft98 Smart Download Redirect
 // @namespace    Violentmonkey Scripts
-// @version      1.7
+// @version      1.8
 // @match        https://soft98.ir/*
 // @grant        none
 // @description  Redirect to download link if it points to dl*.soft98.ir, bypassing AdBlock/VPN warning.
@@ -24,6 +24,8 @@
                 const url = new URL(link.href);
                 if (url.hostname.startsWith("dl") && url.hostname.endsWith(".soft98.ir")) {
                     url.hostname = mirrorHost;
+                    // Strip query params
+                    url.search = "";
                     if (link.href !== url.href) {
                         link.href = url.href;
                     }
