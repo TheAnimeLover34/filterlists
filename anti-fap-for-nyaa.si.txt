@@ -2,7 +2,7 @@
 ! Title: 🚫 Anti-Fap for nyaa.si
 ! Description: Block Fap for nyaa.si.
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 20 Jul 2025
+! Version: 09 Aug 2025
 ! Syntax: AdBlock
 
 ! Anti-Fap for nyaa.si
