@@ -2,12 +2,13 @@
 ! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 10 Aug 2025 V5
+! Version: 10 Aug 2025 V6
 ! Expires: 5 days
 ! Syntax: AdBlock
 
 ! GitHub
 github.com##.copilotPreview-disabled
+github.com##.copilotPreview-disabled__message
 ! Downloadha
 downloadha.com##div.no-space-xs.col-sm-5.col-xs-12 > p:has-text(تماس با ما)
 downloadha.com##[href="https://www.downloadha.com/ads/"]
