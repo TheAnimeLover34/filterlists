@@ -5,8 +5,8 @@
 // @match        https://soft98.ir/*
 // @grant        none
 // @description  Redirect to download link if it points to dl*.soft98.ir, bypassing AdBlock/VPN warning.
-// @downloadURL  https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Smart_Download_Redirect.user.js
-// @updateURL    https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Smart_Download_Redirect.user.js
+// @downloadURL  https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Smart_Download_Redirect_No_Fact.user.js
+// @updateURL    https://raw.githubusercontent.com/Parsa307/filterlists/main/UserScripts/Soft98_Smart_Download_Redirect_No_Fact.user.js
 // @homepageURL  https://github.com/Parsa307/filterlists
 // @supportURL   https://github.com/Parsa307/filterlists/issues
 // @author       Parsa307
