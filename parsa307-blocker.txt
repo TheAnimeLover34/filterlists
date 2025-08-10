@@ -2,7 +2,7 @@
 ! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 10 Aug 2025 V2
+! Version: 10 Aug 2025 V3
 ! Expires: 5 days
 ! Syntax: AdBlock
 
