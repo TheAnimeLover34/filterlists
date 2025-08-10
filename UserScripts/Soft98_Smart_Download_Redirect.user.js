@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Soft98 Smart Download Redirect
 // @namespace    Violentmonkey Scripts
-// @version      2.0
+// @version      2.1
 // @match        https://soft98.ir/*
 // @grant        none
 // @description  Redirect to download link if it points to dl*.soft98.ir, bypassing AdBlock/VPN warning.
@@ -23,8 +23,16 @@
     // Replace the current console with the iframe's untouched console
     window.console = iframe.contentWindow.console;
 
-    // Log message
-    console.log("As a proud Soft98 owner: I love my users so much, I make sure they never miss my beautiful ads. Sharing is caring… especially when it’s ads. 😄");
+    const Soft98OwnerFacts = [
+        "As a proud Soft98 Owner, I love my users so much I hide the anti-user warning. Sharing is caring, especially when it’s ads! 😄",
+        "Fact: Our users never miss ads because we lovingly make sure they're always visible.",
+        "Soft98 Owner secret: If users aren't annoyed, are we even doing our job?",
+        "We believe in user freedom, the freedom to see our beautiful ads! 🚀",
+        "Rumor has it the Soft98 Owner drinks coffee made from ad impressions.",
+        "Warning hidden by owner’s love. Don't worry, it's just more ads!",
+        "Soft98 Owner motto: 'Annoy users gently and consistently.'",
+        "Fact: The more ads, the merrier the download speed. Or so we tell ourselves."
+    ];
 
     const mirrorHost = "dl2soft98.82.ir.cdn.ir";
     const mirrorHost2 = "dl3soft98.83.ir.cdn.ir";
@@ -52,7 +60,13 @@
         }
     }
 
+    function logRandomFact() {
+        const fact = Soft98OwnerFacts[Math.floor(Math.random() * Soft98OwnerFacts.length)];
+        console.log(fact);
+    }
+
     setInterval(changeDownloadLinks, 500);
+    setInterval(logRandomFact, 500);
 
     document.body.addEventListener('click', function(event) {
         let el = event.target;
