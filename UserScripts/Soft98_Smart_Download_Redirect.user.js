@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Soft98 Smart Download Redirect
 // @namespace    Violentmonkey Scripts
-// @version      2.1
+// @version      2.2
 // @match        https://soft98.ir/*
 // @grant        none
 // @description  Redirect to download link if it points to dl*.soft98.ir, bypassing AdBlock/VPN warning.
@@ -20,8 +20,9 @@
     iframe.style.display = 'none';
     document.documentElement.appendChild(iframe);
 
-    // Replace the current console with the iframe's untouched console
-    window.console = iframe.contentWindow.console;
+    // Replace only the console.log with the iframe's console.log bound to iframe.console context
+    const iframeConsole = iframe.contentWindow.console;
+    window.console.log = iframeConsole.log.bind(iframeConsole);
 
     const Soft98OwnerFacts = [
         "As a proud Soft98 Owner, I love my users so much I hide the anti-user warning. Sharing is caring, especially when it’s ads! 😄",
