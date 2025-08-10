@@ -2,7 +2,7 @@
 ! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 10 Aug 2025 V3
+! Version: 10 Aug 2025 V4
 ! Expires: 5 days
 ! Syntax: AdBlock
 
@@ -18,7 +18,7 @@ soft98.ir,~forum.soft98.ir##a[data-href="https://soft98.ir/adv.html"]:upward(div
 ! My Shad Hiding
 my.shad.ir##rb-chat-ads-container
 ! YasDL Warning used PersianBlocker Method (https://github.com/MasterKia/PersianBlocker/blob/eba2467299e1001ec0b02fcabe6f0d83f554b951/PersianBlockerAds.txt)
-yasdl.com##html::before:style(all: unset !important; content: '⚠️ Parsa307 Blocker Team: This website has been unblocked due to user request, but it remains flagged as unsafe by the r/Piracy community. Proceed at your own risk. We are not responsible for any potential harm.' !important; color: #1E88E5 !important; font-weight: bold !important; font-size: medium !important; background-color: white !important; border: 3px solid red !important; border-radius: 8px !important; padding: 0.5em !important; width: 100% !important; height: auto !important; max-width: 100% !important; max-height: 100% !important; overflow: visible !important; clip: auto !important; clip-path: none !important; mask: none !important; transform: none !important; display: block !important; opacity: 100% !important; visibility: visible !important; filter: none !important; -webkit-text-fill-color: initial !important; -webkit-text-stroke: initial !important; position: absolute !important; top: 0px !important; left: auto !important; right: auto !important; bottom: auto !important; z-index: 856985698569 !important; text-indent: 0 !important; line-height: normal !important; backface-visibility: visible !important; animation: none !important; transition: none !important; contain: content !important; ltr !important;)
+yasdl.com##html::before:style(all: unset !important; content: '⚠️ Parsa307 Blocker Team: This website has been unblocked due to user request, but it remains flagged as unsafe by the r/Piracy community. Proceed at your own risk. We are not responsible for any potential harm.' !important; color: #1E88E5 !important; font-weight: bold !important; font-size: medium !important; background-color: white !important; border: 3px solid red !important; border-radius: 8px !important; padding: 0.5em !important; width: 100% !important; height: auto !important; max-width: 100% !important; max-height: 100% !important; overflow: visible !important; clip: auto !important; clip-path: none !important; mask: none !important; transform: none !important; display: block !important; opacity: 100% !important; visibility: visible !important; filter: none !important; -webkit-text-fill-color: initial !important; -webkit-text-stroke: initial !important; position: absolute !important; top: 0px !important; left: auto !important; right: auto !important; bottom: auto !important; z-index: 856985698569 !important; text-indent: 0 !important; line-height: normal !important; backface-visibility: visible !important; animation: none !important; transition: none !important; contain: content !important; direction: ltr !important;)
 ! Soft98 Annoyance Blocking (Use the UserScripts too)
 soft98.ir##.abdd_ibd
 soft98.ir##.tbdt-inner
