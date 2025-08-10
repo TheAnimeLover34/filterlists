@@ -15,6 +15,17 @@
 (function () {
     'use strict';
 
+    // Create a hidden iframe to get a clean console
+    const iframe = document.createElement('iframe');
+    iframe.style.display = 'none';
+    document.documentElement.appendChild(iframe);
+
+    // Replace the current console with the iframe's untouched console
+    window.console = iframe.contentWindow.console;
+
+    // Log message
+    console.log("As a proud Soft98 owner: I love my users so much, I make sure they never miss my beautiful ads. Sharing is caring… especially when it’s ads. 😄");
+
     const mirrorHost = "dl2soft98.82.ir.cdn.ir";
     const mirrorHost2 = "dl3soft98.83.ir.cdn.ir";
 
