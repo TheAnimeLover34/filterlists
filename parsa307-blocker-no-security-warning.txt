@@ -2,7 +2,7 @@
 ! Title: 🚫 Parsa307's Blocker No Security Warning
 ! Description: Block ADS & Annoyances. That most filters miss! Security Warning is not included.
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 11 Aug 2025
+! Version: 11 Aug 2025 V2
 ! Expires: 5 days
 ! Syntax: AdBlock
 
@@ -16,13 +16,15 @@ downloadha.com##[href="https://www.downloadha.com/ads/"]
 soft98.ir,~forum.soft98.ir###abddh, #sbds
 soft98.ir,~forum.soft98.ir##.abddl
 soft98.ir,~forum.soft98.ir##a[data-href="https://soft98.ir/adv.html"]:upward(div)
+! Soft98 Annoyance Blocking (Use the UserScripts too)
+soft98.ir##.abdd_ibd
+soft98.ir##.tbdt-inner
+! Roblox (Blocked due to Schlep Situation check out @RealSchlep in X/Twitter for More Infomation).
+||roblox.com^
 ! 1337x
 ||1337x.vpnonly.site
 ! My Shad
 my.shad.ir##rb-chat-ads-container
-! Soft98 Annoyance Blocking (Use the UserScripts too)
-soft98.ir##.abdd_ibd
-soft98.ir##.tbdt-inner
 ! Hide Membership AD for karzer
 karzar.net##.col-md-12
 ! Reddit
