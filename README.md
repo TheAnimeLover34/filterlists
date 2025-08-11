@@ -7,6 +7,7 @@
 
 ## **ADS & General Annoyances:**
 1. 🌟 🚫 **Parsa307's Blocker** (Blocks things not covered by most of the filters) [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Parsa307/filterlists/main/parsa307-blocker.txt&title=Parsa307's%20Blocker)
+2. 🚫 **Parsa307's Blocker No Security Warning** (Blocks things not covered by most of the filters) [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Parsa307/filterlists/main/parsa307-blocker-no-security-warning.txt&title=Parsa307's%20Blocke%20No%20Security%20Warning)
 
 ---
 
