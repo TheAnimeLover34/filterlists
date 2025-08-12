@@ -2,7 +2,7 @@
 ! Title: 🚫 Parsa307's Blocker
 ! Description: Block ADS & Annoyances. That most filters miss!
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 11 Aug 2025
+! Version: 12 Aug 2025
 ! Expires: 5 days
 ! Syntax: AdBlock
 
@@ -12,13 +12,6 @@ github.com##.copilotPreview-disabled__message
 ! Downloadha
 downloadha.com##div.no-space-xs.col-sm-5.col-xs-12 > p:has-text(تماس با ما)
 downloadha.com##[href="https://www.downloadha.com/ads/"]
-! Soft98 Hide Ads
-soft98.ir,~forum.soft98.ir###abddh, #sbds
-soft98.ir,~forum.soft98.ir##.abddl
-soft98.ir,~forum.soft98.ir##a[data-href="https://soft98.ir/adv.html"]:upward(div)
-! Soft98 Annoyance Blocking (Use the UserScripts too)
-soft98.ir##.abdd_ibd
-soft98.ir##.tbdt-inner
 ! Roblox (Blocked due to Schlep Situation check out @RealSchlep in X/Twitter for More Infomation).
 ||roblox.com^
 ! 1337x
