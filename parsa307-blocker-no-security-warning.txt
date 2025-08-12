@@ -14,8 +14,6 @@ github.com##.copilotPreview-disabled__message
 ||roblox.com^
 ! 1337x
 ||1337x.vpnonly.site
-! My Shad
-my.shad.ir##rb-chat-ads-container
 ! Hide Membership AD for karzer
 karzar.net##.col-md-12
 ! Reddit
