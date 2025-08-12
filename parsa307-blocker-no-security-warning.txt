@@ -2,7 +2,7 @@
 ! Title: 🚫 Parsa307's Blocker No Security Warning
 ! Description: Block ADS & Annoyances. That most filters miss! Security Warning is not included.
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 12 Aug 2025 V2
+! Version: 12 Aug 2025 V3
 ! Expires: 5 days
 ! Syntax: AdBlock
 
@@ -10,9 +10,6 @@
 github.com##.copilotPreview__header
 github.com##.copilotPreview-disabled
 github.com##.copilotPreview-disabled__message
-! Downloadha
-downloadha.com##div.no-space-xs.col-sm-5.col-xs-12 > p:has-text(تماس با ما)
-downloadha.com##[href="https://www.downloadha.com/ads/"]
 ! Roblox (Blocked due to Schlep Situation check out @RealSchlep in X/Twitter for More Infomation).
 ||roblox.com^
 ! 1337x
