@@ -1,5 +1,5 @@
 ! Title: 🚫 Parsa307's Blocker
-! Description: Block ADS & Annoyances. That most filters miss!
+! Description: Block ADS & Annoyances. That most filters miss! (No Persian Website is covered)
 ! Homepage: https://github.com/Parsa307/filterlists
 ! Last modified: Wed, 13 Aug 2025 12:46:29 +0330
 ! Expires: 5 days
