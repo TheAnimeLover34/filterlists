@@ -2,7 +2,7 @@
 ! Title: 🚫 1337x Anti-NSFW
 ! Description: Block NSFW for 1337x.
 ! Homepage: https://github.com/Parsa307/filterlists
-! Version: 01 Aug 2025
+! Last modified: %timestamp%
 ! Syntax: AdBlock
 
 ! Anti-NSFW for 1337x.to
