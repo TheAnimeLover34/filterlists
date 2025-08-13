@@ -1,10 +1,8 @@
-[Adblock Plus 2.0]
 ! Title: 🚫 Parsa307's Blocker No Security Warning
 ! Description: Block ADS & Annoyances. That most filters miss! Security Warning is not included.
 ! Homepage: https://github.com/Parsa307/filterlists
 ! Last modified: Wed, 13 Aug 2025 12:14:48 +0330
 ! Expires: 5 days
-! Syntax: AdBlock
 
 ! GitHub
 github.com##.copilotPreview__header
