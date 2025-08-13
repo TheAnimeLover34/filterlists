@@ -28,22 +28,21 @@ jobs:
 
       - name: Patch last-updated field
         run: |
-          # Get list of .txt files changed in last commit (ignoring trivial changes)
-          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD -- '*.txt')
+          for commit in $(git rev-list ${{ github.event.before }}..${{ github.sha }}); do
+            CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r $commit -- '*.txt')
 
-          for f in $CHANGED_FILES; do
-            # Make sure file still exists (not deleted)
-            if [[ -f "$f" ]]; then
-              # Get last commit date for that file
-              COMMIT_DATE=$(git log -1 --format=%cD -- "$f")
+            for f in $CHANGED_FILES; do
+              # Make sure file still exists (not deleted)
+              if [[ -f "$f" ]]; then
+                # Get last commit date for that file
+                COMMIT_DATE=$(git log -1 --format=%cD -- "$f")
 
-              # Replace whatever is after "! Last modified: " with commit date
-              if sed --version >/dev/null 2>&1; then
-                sed -ir "0,/^! Last modified: /s|^\(! Last modified: \).*|\1$COMMIT_DATE|" "$f"
-              else
-                sed -i '' "0,/^! Last modified: /s|^\(! Last modified: \).*|\1$COMMIT_DATE|" "$f"
+                # Replace whatever is after "! Last modified: " with commit date
+                if sed --version >/dev/null 2>&1; then
+                  sed -i "0,/^! Last modified: /s|^! Last modified: .*|! Last modified: $COMMIT_DATE|" "$f"
+                fi
               fi
-            fi
+            done
           done
 
       - name: Commit changes (if any)
