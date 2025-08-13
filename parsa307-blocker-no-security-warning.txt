@@ -12,8 +12,6 @@ github.com##.copilotPreview-disabled__message
 ||roblox.com^
 ! 1337x
 ||1337x.vpnonly.site
-! Hide Membership AD for karzer
-karzar.net##.col-md-12
 ! Reddit
 reddit.com##reddit-recent-pages
 reddit.com###advertise-button
