@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Soft98 Smart Download Redirect No Fact
+// @name         Soft98 Smart Download Redirect
 // @namespace    Violentmonkey Scripts
 // @version      1.0
 // @match        https://soft98.ir/*
