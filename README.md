@@ -1,7 +1,7 @@
-## **🚫 Anti-Fap Filters:**
+## **🚫 Anti-NSFW Filters:**
 1. 🌟 **StevenBlack/hosts extension porn** (blocks Porn/FAP websites) [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn-only/hosts&title=StevenBlack/hosts%20extension%20porn)
 2. 🚫 **1337x Anti-NSFW** (Blocks NSFW for 1337x) [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Parsa307/filterlists/main/1337x-anti-nsfw.txt&title=1337x%20Anti-NSFW)
-3. 🚫 **Anti-Fap for nyaa.si** (Blocks Fap section) [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Parsa307/filterlists/main/anti-fap-for-nyaa.si.txt&title=Anti-Fap%20for%20nyaa.si)
+3. 🚫 **Anti-NSFW for nyaa.si** (Blocks Fap section) [Subscribe](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/Parsa307/filterlists/main/anti-nsfw-for-nyaa.si.txt&title=Anti-NSFW%20for%20nyaa.si)
 
 ---
 
