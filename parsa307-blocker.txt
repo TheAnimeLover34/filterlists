@@ -8,8 +8,6 @@
 github.com##.copilotPreview__header
 github.com##.copilotPreview-disabled
 github.com##.copilotPreview-disabled__message
-! Roblox (Blocked due to Schlep Situation check out @RealSchlep in X/Twitter for More Infomation).
-||roblox.com^
 ! 1337x
 ||1337x.vpnonly.site
 ! YasDL Warning used PersianBlocker Method (https://github.com/MasterKia/PersianBlocker/blob/eba2467299e1001ec0b02fcabe6f0d83f554b951/PersianBlockerAds.txt)
