@@ -1,5 +1,5 @@
 ! Title: 🚫 Parsa307's Anti-NSFW
-! Description: Includes Parsa307's Anti-NSFW for websites (Also use: StevenBlack/hosts extension porn).
+! Description: Includes Parsa307's Anti-NSFW for specific websites (Also use: StevenBlack/hosts extension porn).
 ! Homepage: https://github.com/Parsa307/filterlists
 ! Last modified: 
 
