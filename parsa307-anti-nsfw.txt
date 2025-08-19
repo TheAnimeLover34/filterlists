@@ -4,7 +4,7 @@
 ! Last modified: Sun, 17 Aug 2025 13:49:28 +0330
 
 !  🚫 Anti-NSFW nyaa.si
-!#include anti-nsfw-nyaa.si.txt
+!#include nyaa.si-anti-nsfw.txt
 
 ! 🚫 1337x Anti-NSFW
 !#include 1337x-anti-nsfw.txt
