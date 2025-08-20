@@ -4,9 +4,9 @@
 ! Last modified: Sat, 16 Aug 2025 10:15:20 +0330
 ! Expires: 5 days
 
-! GitHub
+! GitHub (GitHub Preview Disabled)
 github.com##.copilotPreview-disabled
 github.com##.copilotPreview-disabled__message
-! Reddit
+! Reddit (Recent Visited Pages, Advertise Button)
 reddit.com##reddit-recent-pages
 reddit.com###advertise-button
