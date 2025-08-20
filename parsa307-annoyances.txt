@@ -1,0 +1,12 @@
+! Title: 🚫 Parsa307's Annoyances
+! Description: Block Annoyances. That most filters miss!
+! Homepage: https://github.com/Parsa307/filterlists
+! Last modified: Sat, 16 Aug 2025 10:15:20 +0330
+! Expires: 5 days
+
+! GitHub
+github.com##.copilotPreview-disabled
+github.com##.copilotPreview-disabled__message
+! Reddit
+reddit.com##reddit-recent-pages
+reddit.com###advertise-button
