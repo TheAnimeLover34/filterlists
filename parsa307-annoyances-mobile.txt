@@ -1,0 +1,8 @@
+! Title: 🚫 Parsa307's Annoyances Mobile
+! Description: Block Annoyances for Mobile. That most filters miss! (No Persian Website is covered)
+! Homepage: https://github.com/Parsa307/filterlists
+! Last modified: Sat, 16 Aug 2025 10:15:20 +0330
+! Expires: 5 days
+
+! GitHub
+github.com##.copilotPreview__header
