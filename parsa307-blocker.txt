@@ -4,14 +4,19 @@
 ! Last modified: Sat, 16 Aug 2025 10:15:20 +0330
 ! Expires: 5 days
 
-! GitHub
-github.com##.copilotPreview__header
-github.com##.copilotPreview-disabled
-github.com##.copilotPreview-disabled__message
-! 1337x
-||1337x.vpnonly.site
-! YasDL Warning used PersianBlocker Method (https://github.com/MasterKia/PersianBlocker/blob/eba2467299e1001ec0b02fcabe6f0d83f554b951/PersianBlockerAds.txt)
-yasdl.com##html::before:style(all: unset !important; content: '⚠️ Parsa307 Blocker Team: This website has been unblocked due to user request, but it remains flagged as unsafe by the r/Piracy community. Proceed at your own risk. We are not responsible for any potential harm.' !important; color: #1E88E5 !important; font-weight: bold !important; font-size: medium !important; background-color: white !important; border: 3px solid red !important; border-radius: 8px !important; padding: 0.5em !important; width: 100% !important; height: auto !important; max-width: 100% !important; max-height: 100% !important; overflow: visible !important; clip: auto !important; clip-path: none !important; mask: none !important; transform: none !important; display: block !important; opacity: 100% !important; visibility: visible !important; filter: none !important; -webkit-text-fill-color: initial !important; -webkit-text-stroke: initial !important; position: absolute !important; top: 0px !important; left: auto !important; right: auto !important; bottom: auto !important; z-index: 856985698569 !important; text-indent: 0 !important; line-height: normal !important; backface-visibility: visible !important; animation: none !important; transition: none !important; contain: content !important; direction: ltr !important;)
-! Reddit
-reddit.com##reddit-recent-pages
-reddit.com###advertise-button
+! Annoyances
+!#include parsa307-annoyances.txt
+
+! Mobile (Firefox Android, Cromite, AdGuard for Android, AdGuard for iOS, AdGuard for Safari, Samsung Internet)
+!#if env_mobile
+!#include parsa307-annoyances-mobile.txt
+!#endif
+!#if (adguard && adguard_app_android)
+!#include parsa307-annoyances-mobile.txt
+!#endif
+!#if (adguard && adguard_app_ios)
+!#include parsa307-annoyances-mobile.txt
+!#endif
+!#if (adguard && adguard_ext_android_cb)
+!#include parsa307-annoyances-mobile.txt
+!#endif
